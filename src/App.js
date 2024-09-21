@@ -1,10 +1,10 @@
-import logo from './logo.svg'
 import './App.css'
+import Dashboard from './modules/Login/components/Dashboard/Dashboard'
 
 function App() {
 	return (
 		<div className='App'>
-			<h1>Todo App</h1>
+			<Dashboard />
 		</div>
 	)
 }
